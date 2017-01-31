@@ -93,3 +93,13 @@ $route['question/edit/(:any)'] = 'question/edit/$1';
  
 $route['question/view/(:any)'] = 'question/view/$1';
 $route['question/(:any)'] = 'question/view/$1';
+
+
+
+$route['user'] = 'user';
+$route['user/create'] = 'user/create';
+ 
+$route['user/edit/(:any)'] = 'user/edit/$1';
+ 
+$route['user/view/(:any)'] = 'user/view/$1';
+$route['user/(:any)'] = 'user/view/$1';

@@ -8,7 +8,14 @@
             <td><label for="User_Name">Name</label></td>
             <td><input type="input" name="User_Name" size="50" /></td>
         </tr>
-       
+       <tr>
+            <td><label for="User_Mail">Mail</label></td>
+            <td><input type="input" name="User_Mail" size="50" /></td>
+        </tr>
+        <tr>
+            <td><label for="User_Password">Password</label></td>
+            <td><input type="input" name="User_Password" size="50" /></td>
+        </tr>
         <tr>
             <td></td>
             <td><input type="submit" name="submit" value="Create User" /></td>

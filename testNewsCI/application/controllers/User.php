@@ -42,6 +42,8 @@ class User extends CI_Controller {
         $data['title'] = 'Create a new User';
  
         $this->form_validation->set_rules('User_Name', 'User_Name', 'required');
+        $this->form_validation->set_rules('User_Mail', 'User_Mail', 'required');
+        $this->form_validation->set_rules('User_Password', 'User_Password', 'required');
  
         if ($this->form_validation->run() === FALSE)
         {

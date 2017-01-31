@@ -36,6 +36,8 @@ class User_model extends CI_Model {
 
         $data = array(
             'User_Name' => $this->input->post('User_Name'),
+            'User_Password' => $this->input->post('User_Password'),
+            'User_Mail' => $this->input->post('User_Mail'),
         );
         
         if ($id == 0) {
